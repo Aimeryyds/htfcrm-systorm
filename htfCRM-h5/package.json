@@ -41,7 +41,7 @@
     "file-loader": "^1.1.5",
     "html-webpack-plugin": "^2.28.0",
     "http-proxy-middleware": "^0.17.4",
-    "jquery": "^1.12.4",
+    "jquery": "^3.5.0",
     "less": "^2.7.2",
     "less-loader": "^4.0.4",
     "merge": "^1.2.0",
