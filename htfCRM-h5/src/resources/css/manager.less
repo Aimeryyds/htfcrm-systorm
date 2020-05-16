@@ -1,0 +1,192 @@
+.user-info-wrap{
+  padding:0.2rem 0;
+  .info-box{
+    height: 0.7rem;
+    display: flex;
+    align-items: center;
+    .header-img{
+      width:.7rem;
+      height: .7rem;
+      border-radius: 50%;
+      overflow: hidden;
+      float: left;
+      margin-left: .2rem;
+      background: #eee;
+      > img {
+        height:.7rem;
+        width: .7rem;
+        object-fit: cover;
+      }
+    }
+    .content {
+      width: 2rem;
+      margin-left: .1rem;
+      .info-name{
+        line-height: 0.24rem;
+      }
+      .info-sign{
+        line-height: 0.23rem;
+        width: 2rem;
+        height: auto;
+      }
+    }
+  }
+  .am-list-line::after{
+    opacity: 0 !important;
+  }
+}
+.N_manager_detail{
+  .product_list{
+     border-bottom:0.01rem solid #f6f6f6;
+    margin-bottom:0.15rem;
+  }
+  .product_list:last-of-type{
+    border-bottom:none;
+  }
+}
+
+.ManagerList{
+  .header{
+    position:fixed;
+    top:0;
+    z-index: 999;
+    width: 100%;
+  }
+  .am-search{
+    background-color: white;
+    height: 50px;
+    padding: 0, 15px;
+  }
+  .am-search-input{
+    background-color: #f6f6f6;
+    border-radius: 14px;
+  }
+  .list{
+    margin-top: 65px;
+  }
+  .nocontent{
+    position: absolute;
+    top: 65px;
+    bottom: 0;
+    left: 0;
+    right:0;
+    background-color: #f6f6f6;
+    background-image: url(../images/zanwushuju.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+.nocontent{
+  position: absolute;
+  top: 65px;
+  bottom: 0;
+  left: 0;
+  right:0;
+  background-color: #f6f6f6;
+  background-image: url(../images/zanwushuju.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2rem, 2rem;
+}
+.kehumanagerdetail{
+  font-family: "PingFang-SC-Medium";
+  .header{
+    .am-list-item{
+      padding: 0;
+      border-top: 1px solid #F6F6F6;
+      margin-top: 10px;
+    }
+  }
+  .am-badge-text{
+    font-size: 11px;
+  }
+  h3{
+    font-size: 18px;
+    
+  }
+  .sub{
+    color:#666666;
+    font-size: 14px;
+    font-weight:500;
+  }
+  .sideBadge{
+    width: 3px;
+    display: inline-block;
+    background-color:@ui_color;
+    color: @ui_color;
+    height: 17px;
+    vertical-align: -2px;
+  }
+  .custom_module_table th{
+    height: 41px;
+  }
+  .custom_module_table tbody tr:nth-of-type(2n){
+    background-color:#F8F7F4;
+  }
+  .custom_module_table .iconfont{
+    font-size: 10px;
+  }
+  .custom_module_table .custName{
+    color: @ui_color;
+  }
+  .custom_module_table .mName{
+    color: #7BB1F9
+  }
+  .tips{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 0;
+    position: absolute;
+    bottom: 13%;
+    left: 10%;
+    right: 10%;
+    border-radius: 5px;
+    color: white;
+    .left{
+      padding: 5px 0px;
+      border-right: 1px solid white;
+      line-height: 14px;
+      flex-basis: 85%;
+      text-align: center;
+    }
+    .right{
+      text-align: center;
+      flex-basis: 15%;
+    }
+  }
+  .am-list-item .am-list-line .am-list-content, .am-list-item .am-list-line .am-list-extra{
+    font-size: 14px;
+    color: #666666;
+  }
+}
+.asset{
+  .am-list-item .am-list-line .am-list-content, .am-list-item .am-list-line .am-list-extra{
+    font-size: 14px;
+    color: #666666;
+  }
+  
+}
+.quantityanalyze{
+  .qunatityTable{
+    th{
+      width: 25%;
+      color: #666666
+    }
+    .icon-paixumoren{
+      font-size: 10px
+    }
+  }
+}
+.manager_sort{
+  .module_title_a{
+    margin: 0.1rem 0 0.1rem 0.1rem
+  }
+}
+.custom_module_table th.sorted{
+  color: @ui_color;
+}
+.kehumanagerdetail{
+  .am-list-item .am-list-line .am-list-extra{
+    overflow: visible;
+  }
+}

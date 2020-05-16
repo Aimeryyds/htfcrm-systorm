@@ -1,0 +1,95 @@
+.gold_theme{
+    @ui_color: #DDAF59;
+    .ipo-table{
+        .icon-add{
+            color: @ui_color;
+            &:active{
+                color: lighten(@ui_color, 10%)
+            }
+        }
+    }
+}
+.brown_theme{
+    @ui_color: #483C39;
+    .ipo-table{
+        .icon-add{
+            color: @ui_color;
+            &:active{
+                color:lighten(@ui_color, 10%)
+            }
+        }
+        
+    }
+}
+.ipo-table{
+    .am-icon{
+        height: 15px;
+        width: 15px;
+    }
+    
+    .cust_table{
+        table-layout: fixed;
+        th:not(:last-child){
+            width: 20%
+        }
+        th:first-child{
+            width:30%
+        }
+    }
+    .show-more{
+        text-align: center;
+        color: #ebebeb;
+        padding: 10px;
+    }
+    .iconfont:active{
+        color: darken(#ebebeb, 20%)
+    }
+}
+.ipo-input{
+    .am-list-item .am-list-line .am-list-extra{
+        flex-basis: 50%;
+    }
+    .am-list-item .am-input-label{
+        overflow: visible;
+    }
+    .am-list-item .am-input-control .fake-input-container .fake-input{
+        color:#888;
+    }
+    // .am-list-item .am-list-line{
+    //     border-bottom: 1px solid #f6f6f6
+    // }
+    .button{
+         width:100%;
+        padding: 0.2rem 0.15rem;
+        background-color: #f6f6f6;
+        
+    }
+    .am-list-item .am-list-line .am-list-extra{
+        overflow: visible;
+    }
+    .am-list-item .am-input-control input{
+        text-align: right;
+        color: #888;
+    }
+
+}
+.am-modal-alert-content, .am-modal-propmt-content{
+    white-space: pre-line;
+}
+html{
+    background-color: #f6f6f6;
+}
+// .am-list-item .am-list-line .am-list-extra{
+//     flex-basis: 36% !important;
+//     flex: 0;
+// }
+.addCompet{
+    @color: rgb(204,204,204);
+    color: @color;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #eee;
+    &:active{
+        color:darken(@color,20%);
+    }
+}

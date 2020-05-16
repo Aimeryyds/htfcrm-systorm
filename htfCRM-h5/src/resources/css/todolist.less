@@ -1,0 +1,109 @@
+.todolist{
+  width: 100%;
+  .am-search{
+    background: #fff !important;
+    .am-search-input{
+      background:#fff !important;
+    }
+  }
+  .todoList-item{
+    .card{
+      padding:0.2rem 0;
+      .img{
+        width: 0.4rem;
+        height: 0.4rem;
+        overflow: hidden;
+        border-radius: 50%;
+        line-height: 0.4rem;
+        text-align: center;
+        span{
+          font-size: 0.2rem;
+          color:#fff;
+        }
+      }
+      .title{
+        overflow: hidden;
+        line-height: 0.24rem;
+        flex-wrap: nowrap;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+      }
+      .con{
+        height: 0.24rem;
+        line-height: 0.24rem;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp:1;
+      }
+      .time{
+        height: 0.24rem;
+        line-height: 0.24rem;
+        text-align: right;
+      }
+      .state{
+        line-height: 0.24rem;
+        color: red;
+        text-align: right;
+      }
+    }
+  }
+  .am-tabs-default-bar-top .am-tabs-default-bar-tab::after{
+    height: 0 !important;
+  }
+  .module_filter_btns{
+    position:fixed;
+    left:0;
+    right:0;
+    top:0.94rem;
+    z-index: 998;
+    display: flex;
+    justify-content: space-between;
+    padding-left:0.25rem;
+    padding-right:0.25rem;
+    .filter_btns{
+      border-radius: 0.12rem;
+      width: 0.6rem;
+      height: 0.25rem;
+      padding:0;
+      text-align: center;
+      line-height: 0.25rem;
+    }
+  }
+}
+//详情
+.todoDetail {
+  .jumpApprove {
+    text-align: right;
+  }
+
+  .button {
+    position: fixed;
+    bottom: 0.6rem;
+    left: 0.15rem;
+    right: 0.15rem;
+    z-index: 10;
+    .am-button {
+      background: @ui_color;
+      color: #fff;
+      font-size: 0.16rem;
+    }
+  }
+}
+.brown_theme {
+  @ui_color: #483C39;
+  //详情
+  .todoDetail {
+    .button {
+      .am-button {
+        background: @ui_color;
+      }
+    }
+  }
+}
+
+.am-modal-transparent{
+  width: 90% !important;
+  touch-action: pan-y;
+}

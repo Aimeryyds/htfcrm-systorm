@@ -1,0 +1,82 @@
+.N_levelAnalyze {
+  .select_tools{
+    margin: 0.20rem 0.10rem;
+    .row{
+      display: flex;
+      margin-bottom: 0.1rem;
+      .label {
+        width: 0.70rem;
+        font-size: .14rem;
+        color: #333;
+        line-height: 0.24rem;
+        text-align: right;
+        padding-right: 0.10rem;
+        white-space:nowrap;
+      }
+      .list{
+        display: flex;
+        >div {
+          font-size: .14rem;
+          line-height: 0.24rem;
+          border-radius: 0.12rem;
+          padding:0 0.10rem;
+          white-space:nowrap;
+          border: solid #fff 0.01rem;
+          &.selected {
+            border-width: 0.01rem;
+            border-style: solid;
+            background-color: #fef7e9;
+            border-color: @ui_color
+          }
+        }
+      }
+    }
+    .N_select_tools-Picker {
+      .am-list-item {
+        min-height: 26px;
+      }
+      .am-list-item.am-list-item-middle .am-list-line {
+        padding: 0;
+      }
+      .am-list-item .am-list-line .am-list-extra {
+        padding: 0;
+      }
+    }
+  }
+  .am-list-item{
+    padding-left:0;
+  }
+}
+.custrend .am-list-item .am-list-line .am-list-extra{
+  flex-basis: 0;
+}
+.la_detail_table{
+  .cur_quantity_table{
+    .custom_module_table{
+      th{
+        padding: 0 5px;
+      }
+      .cust_name{
+        color: @ui_color
+      }
+    }
+  }
+}
+.app-pages{
+  .custom_module_table{
+    .cust_name{
+      color: @ui_color
+    }
+    
+  }
+  .up_down_table{
+    .custom_module_table{
+      th{
+        padding: 10px 0;
+      }
+      tbody{
+        background-color: white;
+      }
+    }
+  }
+}

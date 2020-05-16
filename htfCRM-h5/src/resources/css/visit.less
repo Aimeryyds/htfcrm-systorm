@@ -1,0 +1,108 @@
+.edit_button{
+    background-image:url('../images/editButton.png');
+}
+.add-button{
+    background-image: url(../images/addButton.png);
+}
+.gold_theme{
+    @ui_color: #DDAF59;
+    .ui_color{
+        color: @ui_color;
+    }
+}
+.brown_theme{
+    @ui_color: #483C39;
+    .ui_color{
+        color: @ui_color;
+    }
+}
+.edit-visit{
+    .am-list-item.am-input-disabled .am-input-label{
+        color:#000;
+    }
+    .cust-item::after{
+        font-family:"iconfont" !important;
+        font-size:14px;
+        font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content:'\e624';
+        display: inline-block;
+        margin-right:10px;
+        color: #999999;
+
+    }
+    .am-list-body .am-list-item:last-child:after{
+        display: initial !important;
+    }
+    .am-list-item .am-input-label{
+        font-size: 15px;
+        text-align: right;
+        padding-right:10px;
+    }
+    .am-list-item .am-input-control input{
+        font-size: 15px;
+    }
+    .am-textarea-control textarea{
+        font-size: 15px;
+    }
+    .am-list-footer{
+        background-color: white
+    }
+    .am-list-view-scrollview{
+        background-color: white;
+    }
+    .htf_searchBar_filter .search-wrap .search-input{
+        line-height: 30px;
+    }
+    .content{
+        .am-list-item .am-list-line .am-list-content{
+            font-size: 15px;
+            flex-basis: 85px;
+            flex-grow: 0;
+            text-align: right;
+            padding-right: 10px;
+            margin-right: 5px;
+        }
+        .am-list-item .am-list-line .am-list-extra{
+            font-size: 15px;
+            text-align: left;
+            color: #bbb;
+        }
+    }
+    .input-value{
+        color: #000;
+    }
+    // .am-drawer-overlay{
+    //     // display: none;
+    // }
+
+}
+.visit-object{
+    .search-wrap{
+        display: flex;
+        justify-content: space-between;
+    }
+    .htf_searchBar_filter .search-wrap form{
+        display: flex;
+        align-items: center;
+    }
+    .htf_searchBar_filter .search-wrap .search-filter::after{
+        content: none;
+        border: none;
+    }
+}
+.triangle-down{
+    display: inline-block;
+    border-top:4px solid #666;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    vertical-align: 3px;
+    margin-left: 3px;
+}
+.visit-object-content{
+    .am-list-item .am-list-line .am-list-content{
+        font-size: 15px
+    }
+}
+

@@ -1,0 +1,54 @@
+.N_home {
+    .module_item {
+        flex-grow: 0 !important;
+        flex-basis: 25% !important;
+        padding: .1rem 0 !important;
+        margin-left: 0 !important;
+    }
+}
+
+.gold_theme {
+    .home_new-icon {
+        color: #fb8041;
+        font-size: .3rem;
+    }
+    .st_btn {
+        color: #999;
+        border:1px solid #ccc;
+        font-weight: 200;
+        font-size: .13rem;
+        line-height: .26rem;
+        padding: 0 .06rem;
+        border-radius: .13rem;
+        &.selected {
+            border-color: @ui_color;
+            color: @ui_color;
+        }
+    }
+    .home_text {
+        color: #333;
+    }
+}
+.brown_theme {
+    @ui_color: #483C39;
+    .home_new-icon {
+        color: @ui_color;
+        font-size: .3rem;
+    }
+    .st_btn {
+        color: #999;
+        border:1px solid #ccc;
+        font-weight: 200;
+        font-size: .13rem;
+        line-height: .26rem;
+        padding: 0 .06rem;
+        border-radius: .13rem;
+        &.selected {
+            border-color: @ui_color;
+            color: @ui_color;
+        }
+    }
+    .home_text {
+        color: @ui_color;
+    }
+}

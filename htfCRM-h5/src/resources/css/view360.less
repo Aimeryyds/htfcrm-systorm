@@ -1,0 +1,96 @@
+
+  .N_View360 {
+    .Page_B {
+      .module_a_1 {
+        background: url('../images/view360_1.jpg') no-repeat;
+        background-size: cover;
+        width: 2rem;
+        height: 2rem;
+        text-align: center;
+        margin: 0 auto;
+        .f_a {
+          font-size: .12rem;
+          color: #999;
+          padding-top: .5rem;
+        }
+        .f_b {
+          font-size: .3rem;
+          color: #333;
+        }
+        .f_c {
+          font-size: .12rem;
+          color: #666;
+        }
+      }
+    }
+
+    .Page_B, .Page_C, .Page_D {
+      .module_a {
+        border-bottom: 1px solid #eee;
+        padding: .2rem 0;
+        position: relative;
+        &:before {
+          position: absolute;
+          content: ' ';
+          display: block;
+          left: 0;
+          top: .2rem;
+          bottom: .2rem;
+          width: .05rem;
+          background: #ccc;
+          border-radius: 0 2px 2px 0;
+        }
+        &.module_a-success {
+          &:before {
+            background: #7bb1f9;
+          }
+        }
+        &.module_a-fail {
+          &:before {
+            background: #fa7375;
+          }
+        }
+        &.module_a-ui {
+          &:before {
+            background: @ui_color;
+          }
+        }
+        .mt {
+          position: relative;
+          text-align: center;
+          &:after {
+            position: absolute;
+            content: ' ';
+            display: block;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: .01rem;
+            background: #ccc;
+          }
+        }
+      }
+
+    }
+
+  }
+
+  .brown_theme {
+    @ui_color: #483C39;
+    .Page_B, .Page_C, .Page_D {
+      .module_a {
+        &.module_a-ui {
+          &:before {
+            background: @ui_color;
+          }
+        }
+      }
+    }
+  }
+  .am-list-item .am-list-line{
+    justify-content: flex-start;
+  }
+  // .am-list-item .am-list-line .am-list-extra{
+  //   flex-basis: 0;
+  //   flex: 0
+  // }

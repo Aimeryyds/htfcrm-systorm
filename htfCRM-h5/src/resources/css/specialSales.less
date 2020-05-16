@@ -1,0 +1,128 @@
+.specialSales_contain{
+  .am-drawer.am-drawer-left .am-drawer-draghandle, .am-drawer.am-drawer-right .am-drawer-draghandle {
+    width: 0;
+    height: 100%;
+  }
+  .Drawer_show_css{
+    overflow: hidden;
+    width:0.85rem;
+    height: 0.43rem;
+    line-height: 0.43rem;
+    text-align: center;
+    background: #f4f4f4;
+    color:#333;
+  }
+
+  .am-tag-normal::before{
+    border:none !important;
+  }
+  .am-tag{
+    padding:0;
+  }
+  .am-tag-active{
+    color:#DDAF59;
+    background:#FEF7E9 ;
+  }
+  .am-tag-active::before{
+    border:none !important;
+  }
+  .salePlan_item{
+    padding:0.02rem 0;
+    padding-bottom:0.03rem;
+    .title{
+      display: flex;
+      justify-content: space-between;
+      height: 0.2rem;
+      align-items: center;
+      flex-wrap: nowrap;
+      .left_title{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 80%;
+        .laber{
+          display: inline-block;
+          padding:0.02rem 0.03rem;
+          border-radius: 0.02rem;
+          margin-right:0.04rem;
+        }
+        .name{
+          display: inline-block;
+          width:80%;
+          overflow : hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;//规定几行显示省略号
+          -webkit-box-orient: vertical;
+          word-break:break-all;
+        }
+
+      }
+      .right_state{
+        span{
+          display: inline-block;
+          width: 3px;
+          height: 3px;
+          border-radius: 50%;
+          margin-right:0.05rem;
+          margin-bottom:0.03rem;
+          box-shadow: 0px 0px 1px #f5e9d2;
+        }
+      }
+    }
+    .other_info{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      padding-top:0.1rem;
+    }
+  }
+}
+
+
+.specialDetail{
+  margin-top:0.1rem;
+  .one_modules{
+    padding:0.16rem;
+    background: #fff;
+    .title{
+      word-break:break-all;
+      padding-bottom:0.1rem;
+    }
+    .title_label{
+      display: flex;
+      justify-content: flex-start;
+      span{
+        display: inline-block;
+        line-height: 0.22rem;
+        padding:0 0.05rem;
+        border-radius: 0.11rem;
+        margin-right:0.08rem;
+      }
+    }
+    .remarks{
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      height: auto;
+      padding-top:0.14rem;
+      font-size: 0.12rem;
+      line-height: 0.16rem;
+      color:#a1a1a1;
+      .word{
+        width: 12%;
+      }
+      .con{
+        width: 87%;
+        //overflow : hidden;
+        //text-overflow: ellipsis;
+        //display: -webkit-box;
+        //-webkit-line-clamp: 3;//规定几行显示省略号
+        //-webkit-box-orient: vertical;
+        word-break:break-all;
+        line-height: 0.18rem;
+      }
+    }
+  }
+
+}
